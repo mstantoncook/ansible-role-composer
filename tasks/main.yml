@@ -7,7 +7,7 @@
 
 - name: Run Composer installer.
   command: >
-    php composer-installer.php
+    php composer-installer.php --version=1.0.0-alpha10
     chdir=/tmp
     creates=/usr/local/bin/composer
 
